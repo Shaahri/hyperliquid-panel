@@ -29,9 +29,14 @@ When a step is completed, tell the user to update the progress tracker by changi
 - [x] 1.0 ✓ CHECKPOINT: Console shows real asset data from Hyperliquid
 
 ### Phase 2: Market Overview Table
-- [ ] 2.1 — Claude creates format.ts (number formatting helpers)
-- [ ] 2.2 — User builds MarketOverview.tsx (table with live data)
-- [ ] 2.0 ✓ CHECKPOINT: Table shows 10+ assets, colored 24h change, sorted by volume
+- [x] 2.1 — Claude creates format.ts (number formatting helpers)
+- [x] 2.2 — User builds MarketOverview.tsx (table with live data)
+- [x] 2.0 ✓ CHECKPOINT: Table shows 10+ assets, colored 24h change, sorted by volume
+
+### Homework: Explore MarketOverview.tsx
+- [ ] Read through MarketOverview.tsx line by line — understand .map(), the 24h change calc, green/red ternary
+- [ ] Experiment: change sort order, swap columns, modify formatting, break things on purpose to see what happens
+- [ ] Experiment: tweak the useEffect — try removing [], changing the fetch body, logging intermediate values
 
 ### Phase 3: Orderbook Visualization
 - [ ] 3.1 — Claude explains orderbook concepts

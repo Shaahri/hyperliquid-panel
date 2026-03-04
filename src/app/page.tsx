@@ -1,17 +1,8 @@
 "use client";
 
-import { useEffect } from "react";
-import { fetchMetaAndAssetCtxs } from "@/lib/api";
+import MarketOverview from "@/components/MarketOverview";
 
 export default function Home() {
-  useEffect(() => {
-    fetchMetaAndAssetCtxs().then((data) => {
-      console.log("Meta:", data.meta)
-      console.log("Asset Contexts:", data.assetCtxs);
-      console.log("First asset:", data.meta.universe[0].name);
-      console.log("First asset context:", data.assetCtxs[0]);
-    });
-  }, []);
 
 
 
@@ -21,7 +12,8 @@ export default function Home() {
 
       <div className="grid grid-cols-2 gap-4">
         <div className="border border-gray-700 rounded-lg p-4 min-h-[300px]">
-          <h2 className="text-lg font-semibold text-gray-400">Market Overview</h2>
+          <h2 className="text-lg font-semibold text-gray-400 mb-3">Market Overview</h2>
+          <MarketOverview />
         </div>
 
         <div className="border border-gray-700 rounded-lg p-4 min-h-[300px]">
