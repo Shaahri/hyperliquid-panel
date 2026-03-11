@@ -26,9 +26,9 @@ Coding tutor. ONE step at a time. Wait for completion. Review, then move on.
 - [x] Phase 2 — format.ts, MarketOverview.tsx (live table, volume-sorted, colored changes)
 
 ### Current
-- [ ] Homework: Read MarketOverview.tsx, experiment with .map(), useEffect, formatting
-- [ ] 3.1 — Claude explains orderbook concepts
-- [ ] 3.2 — User builds Orderbook.tsx
+- [x] Homework: Read MarketOverview.tsx, experiment with .map(), useEffect, formatting
+- [x] 3.1 — Claude explains orderbook concepts
+- [ ] 3.2 — User builds Orderbook.tsx (IN PROGRESS: state + useEffect + 2s polling done, needs JSX rendering + export)
 - [ ] 3.0 ✓ CHECKPOINT: Orderbook updates every 2s, depth bars, spread visible
 
 ### Upcoming
